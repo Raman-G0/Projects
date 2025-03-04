@@ -18,7 +18,7 @@ def load_embedding_model():
 # === Load Free LLM Model (Mistral-7B) ===
 def load_llm():
     """Loads an open-source model (Mistral-7B) for answering queries."""
-    return pipeline("text-generation", model="mistralai/Mistral-7B-Instruct", device="cpu")
+    return pipeline("text-generation", model="gpt2", device="cpu")
 
 # === Create Embeddings for FAISS ===
 def create_embeddings(data, model):
