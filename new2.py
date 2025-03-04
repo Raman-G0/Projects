@@ -61,7 +61,7 @@ def main():
     st.subheader("Ask legal questions and get AI-generated answers!")
 
     # Load legal data
-    json_path = "fixed_motor_vehicle_act.json"
+    json_path = "formatted_motor_vehicle_act.json"
     data = load_legal_data(json_path)
 
     # Load AI models
